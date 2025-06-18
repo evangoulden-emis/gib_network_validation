@@ -3,8 +3,7 @@ testbed:
   name: gib_nxos_testbed
   credentials:
     default:
-      username: 
-      password: 
+
 
 devices:
   nxos1:

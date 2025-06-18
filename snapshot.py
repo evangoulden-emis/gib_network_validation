@@ -10,7 +10,7 @@ def create_snapshot(device, feature, snapshot_name):
 def main():
     username = input("Username: ")
     password = getpass.getpass("Password: ")
-    testbed = load('testbed_files/gib.yaml')
+    testbed = load('./testbed_files/gib.yaml')
     features = ['bgp', 'interface', 'routing']
 
     for device in testbed.devices.values():
