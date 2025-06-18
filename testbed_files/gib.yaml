@@ -6,7 +6,7 @@ testbed:
       username: netadmin
       password: hidden
 
-
+  
 devices:
   nxos1:
     os: nxos

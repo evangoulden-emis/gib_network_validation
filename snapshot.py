@@ -1,12 +1,11 @@
 from genie.testbed import load
 import getpass
-from unittest import enterModuleContext
 
 def create_snapshot(device, feature, snapshot_name):
     device.connect(log_stdout=False, debug=True)
-    learned = device.learn(feature)
-    learned.save(snapshot_name)
+    learned = device.learn(feature )
     print(f"✅ Snapshot saved: {snapshot_name}")
+    print(f"Learnt data:\n {learned}")
 
 def main():
     enter_password = input("Do you want to enter password? (y/n): ").lower()
