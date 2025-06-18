@@ -3,6 +3,8 @@ testbed:
   name: gib_nxos_testbed
   credentials:
     default:
+      username: netadmin
+      password: hidden
 
 
 devices:
@@ -24,9 +26,9 @@ devices:
       cli:
         protocol: ssh
         ip: 10.254.10.154
-        custom:
-    site: pcc
-    name: GSGFPCC01-N9K-C93180YC-FX002
+    custom:
+      site: pcc
+      name: GSGFPCC01-N9K-C93180YC-FX002
 
   nxos3:
     os: nxos
@@ -35,8 +37,9 @@ devices:
       cli:
         protocol: ssh
         ip: 10.254.10.25
-    site: ov
-    name: GOF1MHF01-N9K-C93180YC-FX001
+    custom:
+      site: ov
+      name: GOF1MHF01-N9K-C93180YC-FX001
 
   nxos4:
     os: nxos
@@ -45,5 +48,6 @@ devices:
       cli:
         protocol: ssh
         ip: 10.254.10.26
-    site: ov
-    name: GOF1MHF01-N9K-C93180YC-FX002
+    custom:
+      site: ov
+      name: GOF1MHF01-N9K-C93180YC-FX002
