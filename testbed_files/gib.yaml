@@ -8,7 +8,7 @@ testbed:
 
 
 devices:
-  nxos1:
+  GSGFPCC01-N9K-C93180YC-FX001:
     os: nxos
     type: router
     connections:
