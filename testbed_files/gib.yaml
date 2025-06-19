@@ -28,24 +28,25 @@ devices:
     custom:
       site: pcc
       name: GSGFPCC01-N9K-C93180YC-FX002
-  # nxos3:
-  #   os: nxos
-  #   type: router
-  #   connections:
-  #     cli:
-  #       protocol: ssh
-  #       ip: 10.254.10.25
-  #   custom:
-  #     site: ov
-  #     name: GOF1MHF01-N9K-C93180YC-FX001
 
-  # nxos4:
-  #   os: nxos
-  #   type: router
-  #   connections:
-  #     cli:
-  #       protocol: ssh
-  #       ip: 10.254.10.26
-  #   custom:
-  #     site: ov
-  #     name: GOF1MHF01-N9K-C93180YC-FX002
+  GOF1MHF01-N9K-C93180YC-FX001:
+    os: nxos
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.254.10.25
+    custom:
+      site: ov
+      name: GOF1MHF01-N9K-C93180YC-FX001
+
+  OF1MHF01-N9K-C93180YC-FX002:
+    os: nxos
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.254.10.26
+    custom:
+      site: ov
+      name: GOF1MHF01-N9K-C93180YC-FX002
