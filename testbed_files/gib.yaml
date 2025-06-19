@@ -40,7 +40,7 @@ devices:
       site: ov
       name: GOF1MHF01-N9K-C93180YC-FX001
 
-  OF1MHF01-N9K-C93180YC-FX002:
+  GOF1MHF01-N9K-C93180YC-FX002:
     os: nxos
     type: router
     connections:
