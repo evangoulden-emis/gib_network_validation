@@ -6,7 +6,6 @@ testbed:
       username: netadmin
       password: hidden
 
-
 devices:
   GSGFPCC01-N9K-C93180YC-FX001:
     os: nxos
@@ -19,17 +18,16 @@ devices:
       site: pcc
       name: GSGFPCC01-N9K-C93180YC-FX001
 
-  # nxos2:
-  #   os: nxos
-  #   type: router
-  #   connections:
-  #     cli:
-  #       protocol: ssh
-  #       ip: 10.254.10.154
-  #   custom:
-  #     site: pcc
-  #     name: GSGFPCC01-N9K-C93180YC-FX002
-
+  GSGFPCC01-N9K-C93180YC-FX002:
+    os: nxos
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.254.10.154
+    custom:
+      site: pcc
+      name: GSGFPCC01-N9K-C93180YC-FX002
   # nxos3:
   #   os: nxos
   #   type: router
